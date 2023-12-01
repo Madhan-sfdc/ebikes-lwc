@@ -14,7 +14,7 @@ public with sharing class ProductRecordInfoController {
             recordInfo.add('Product__c');
             return recordInfo;
         }
-
+//super code
         List<Product_Family__c> cProductFamilyList = [
             SELECT ID
             FROM Product_Family__c
